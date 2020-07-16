@@ -615,6 +615,16 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  color: white;
+}
+.title {
+  font-size: 1.5rem;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
