@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const Image = (props) => {
   const data = useStaticQuery(graphql`
     query {
-      images: allFile {
+      images: allFile(filter: {extension: {ne: "md"}}) {
         edges {
           node {
             relativePath
