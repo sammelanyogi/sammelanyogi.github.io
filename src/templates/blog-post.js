@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import "katex/dist/katex.min.css"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 

@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
       <h1>Hi people</h1>
       <p>Welcome to my website.</p>
-      <p>Now go build something great.</p>
+      <p>Will re-design later :).</p>
       <div style={{ width: `300px`, marginBottom: `1.45rem` }}>
         <Image filename="gatsby-astronaut.png" />
       </div>
